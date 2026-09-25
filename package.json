@@ -1,10 +1,11 @@
 {
   "name": "projeto-node-basico",
   "version": "1.0.0",
-  "description": "Projeto básico em Node.js com exemplos de variáveis e funções # Projeto Básico Node.js",
-  "main": "index.js",
+  "description": "Projeto Node.js com TypeScript, Assincronismo e Testes Unitarios",
+  "main": "src/nivel1.ts",
   "scripts": {
-    "start": "npx tsx src/nivel1.ts"
+    "start": "npx tsx src/nivel1.ts",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@types/node": "^26.6.2",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vitest": "^1.0.0"
   }
 }
