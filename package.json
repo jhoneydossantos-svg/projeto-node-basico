@@ -1,0 +1,26 @@
+{
+  "name": "projeto-node-basico",
+  "version": "1.0.0",
+  "description": "Projeto básico em Node.js com exemplos de variáveis e funções # Projeto Básico Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx src/nivel1.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhoneydossantos-svg/projeto-node-basico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jhoneydossantos-svg/projeto-node-basico/issues"
+  },
+  "homepage": "https://github.com/jhoneydossantos-svg/projeto-node-basico#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
